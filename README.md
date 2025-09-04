@@ -1,4 +1,3 @@
-markdown
 # Teacher Units Tracker
 
 A simple Python program that calculates teaching units for lecturers.
