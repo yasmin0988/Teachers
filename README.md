@@ -21,6 +21,8 @@ Mohammadi    | java      |     4
 Mohammadi    | TOTAL     |    12
 Molaie       | TOTAL     |    14
 Rezaie       | TOTAL     |    15
+
+```
 Files:
 main.py - Main program
 
