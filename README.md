@@ -1,4 +1,4 @@
-# Teacher Units Tracker
+# Teacher Units
 
 A simple Python program that calculates teaching units for lecturers.
 
