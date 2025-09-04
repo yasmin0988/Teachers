@@ -5,7 +5,7 @@ A simple Python program that calculates teaching units for lecturers.
 ## What it does:
 - Shows courses taught by each lecturer
 -  Calculates total units per lecturer
--  Displays results in a clean table
+-  Displays results in a clean chart
 
 ## How to run:
 1. Clone the repository:
