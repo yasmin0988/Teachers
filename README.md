@@ -8,8 +8,11 @@ A simple Python program that calculates teaching units for lecturers.
 -  Displays results in a clean table
 
 ## How to run:
+1. Clone the repository:
+git clone https://github.com/yasmin0988/Teachers.git
+2. Navigate to the project directory
+cd Teachers
 ```bash
-python main.py
 Example output:
 text
 Lecturer     | Course    | Units
