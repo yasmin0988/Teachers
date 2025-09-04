@@ -24,9 +24,9 @@ Rezaie       | TOTAL     |    15
 
 ```
 Files:
-main.py - Main program
+asatid_project.py - Main program
 
-asatid_funcs.py - Helper functions
+asatid_funcs.py - modules
 
 Requirements:
 Python 3.x
