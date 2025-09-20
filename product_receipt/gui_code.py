@@ -41,8 +41,8 @@ def show_expired():
     window.mainloop()
 
 def product_table():
-    conn = sqlite3.connect("product.db") 
-    cursor = conn.cursor()
+    connection = sqlite3.connect("product.db") 
+    cursor = connection.cursor()
     cursor.execute('''
                 CREATE TABLE IF NOT EXISTS product(
                    id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -51,8 +51,8 @@ def product_table():
                    price INTEGER,
                    expiredate TEXT)
     ''')
-    conn.commit()
-    conn.close() 
+    connection.commit()
+    connection.close() 
 
     data = [
     ('milk', 'pak', 90000, '2025-10-01'),
@@ -62,11 +62,11 @@ def product_table():
     ('bread', 'senan', 80000, '2025-03-08')
 ]
 
-    conn = sqlite3.connect("product.db") 
-    cursor = conn.cursor()
+    connection = sqlite3.connect("product.db") 
+    cursor = connection.cursor()
     cursor.execute('''
                 INSERT INTO product(title,brand,price,expiredate)
                 VALUES(?,?,?,?)
     ''', data) 
-    conn.commit()
-    conn.close() 
+    connection.commit()
+    connection.close() 
